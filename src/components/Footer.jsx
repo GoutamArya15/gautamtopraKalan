@@ -36,7 +36,7 @@ const Footer = () => {
         >
           <div className="card-body">
             <form>
-              <div className="row mb-3">
+              <div className="row mb-3" id="form">
                 <div className="col">
                   <input
                     type="text"
@@ -45,7 +45,7 @@ const Footer = () => {
                     required
                   />
                 </div>
-                <div className="col">
+                <div className="col" id="email_coloum">
                   <input
                     type="email"
                     className="form-control"
