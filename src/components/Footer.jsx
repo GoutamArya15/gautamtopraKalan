@@ -1,8 +1,8 @@
 import {
   FaEnvelope,
   FaGithub,
-  FaTwitter,
   FaInstagram,
+  FaPhone ,
   FaLinkedin,
 } from "react-icons/fa";
 
@@ -89,19 +89,19 @@ const Footer = () => {
         {/* Footer bottom */}
         <div className="mt-4">
           <div className="d-flex justify-content-center gap-4 mb-3 fs-5">
-            <a href="#" className="text-dark">
+            <a href="mailto:gautamcoe015@gmail.com" className="text-dark">
               <FaEnvelope />
             </a>
-            <a href="#" className="text-dark">
+            <a href="https://github.com/GoutamArya15" className="text-dark">
               <FaGithub />
             </a>
-            <a href="#" className="text-dark">
-              <FaTwitter />
+            <a href="tel:+917015896174" className="text-dark">
+              <FaPhone />
             </a>
             <a href="#" className="text-dark">
               <FaInstagram />
             </a>
-            <a href="#" className="text-dark">
+            <a href="linkedin.com/in/goutam-topra-kalan-2b8215274" className="text-dark">
               <FaLinkedin />
             </a>
           </div>

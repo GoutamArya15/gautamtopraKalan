@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/IntroSection.css";
 
-import img from "../assets/Gemini_Generated_Image_1esd141esd141esd.png";
+import img from "../assets/Gemini_Generated_Image_1esd141esd141esd.webp";
 
 const IntroSection = () => {
   return (
@@ -27,7 +27,7 @@ const IntroSection = () => {
 
       <div class="intro-image text-center" id="responsive_image">
         <div class="image-wrapper">
-          <img alt="profile" class="intro-img" src="/src/assets/Gemini_Generated_Image_1esd141esd141esd.png" /></div>
+          <img alt="profile" class="intro-img" src={img} /></div>
       </div>
 
 
