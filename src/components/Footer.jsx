@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="footer-section py-5"
+      className="footer-section py-5 mt-5"
       style={{ backgroundColor: "#fff8ee" }}
     >
       <div className="container text-center">

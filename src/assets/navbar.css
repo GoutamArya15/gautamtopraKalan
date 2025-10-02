@@ -108,7 +108,6 @@
 
     div#responsive_image {
         margin-top: 23px;
-        margin-left: 28px !important;
     }
 
     button.btn.w-25 {
@@ -118,6 +117,142 @@
         font-weight: bold;
     }
 }
+
+
+/* mobile view - 300px se 400px ke liye */
+@media (min-width: 300px) and (max-width: 400px) {
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    div#responsive_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    div#email_coloum {
+        margin-top: 20px;
+    }
+
+    div#form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    .intro-subtitle {
+        margin-bottom: 10px;
+        font-family: Cormorant SC, serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .intro-subtitle::first-letter {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    h1.intro-subtitle {
+        font-family: "Georgia", serif;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    #resume {
+        display: none;
+    }
+
+    .navbar-brand {
+        font-family: "Dancing Script", cursive;
+        font-size: 22px;
+    }
+
+    ul.navbar-nav.mx-auto {
+        margin-top: 20px;
+        background: white;
+        position: fixed;
+        top: 45px;
+        width: 100%;
+        z-index: 10;
+        padding-top: 23px;
+        padding-bottom: 20px;
+    }
+
+    #image {
+        display: none !important;
+    }
+
+    .intro-name {
+        font-family: "Georgia", serif;
+        font-size: 34px;
+        font-weight: normal;
+        color: #111;
+    }
+
+    .image-wrapper {
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle, rgba(247, 157, 0, 0.6) 0%, transparent 70%);
+        box-shadow: 0 0 20px #e9a622;
+        transition: .8s ease;
+        width: 220px;
+        height: 220px;
+        margin-left: 28px;
+    }
+
+    .intro-img {
+        width: 224px;
+        height: 221px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .intro-name::first-letter {
+        font-family: Georgia, serif;
+        font-size: 45px;
+        font-weight: bold;
+        color: #f79d00;
+    }
+
+    section.intro-section.d-flex.align-items-center.justify-content-between {
+        flex-direction: column;
+    }
+
+
+
+    button.btn.w-25 {
+        width: 45% !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+/* vivo mobile responsive  */
+
+@media (max-width: 368) {
+    body {
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+
 
 
 /* desktop view */
