@@ -25,9 +25,9 @@ const IntroSection = () => {
         </div>
       </section>
 
-      <div class="intro-image text-center" id="responsive_image">
-        <div class="image-wrapper">
-          <img alt="profile" class="intro-img" src={img} /></div>
+      <div className="intro-image text-center" id="responsive_image">
+        <div className="image-wrapper">
+          <img alt="profile" className="intro-img" src={img} /></div>
       </div>
 
 

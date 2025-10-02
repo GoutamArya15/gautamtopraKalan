@@ -1,12 +1,42 @@
+import { useRef } from "react";
 import {
   FaEnvelope,
   FaGithub,
   FaInstagram,
-  FaPhone ,
+  FaPhone,
   FaLinkedin,
 } from "react-icons/fa";
 
+import emailjs from "emailjs-com";
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ygt5qzx",      // 🔁 Replace with your actual service ID
+        "template_a1w5kto",      // 🔁 Replace with your actual template ID
+        form.current,
+        "xw4IpXu_RZI9LJnJ0"       // 🔁 Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Error sending message.");
+        }
+      );
+
+    e.target.reset(); // Clear the form
+  };
+
+
+
   return (
     <footer
       className="footer-section py-5 mt-5"
@@ -35,13 +65,14 @@ const Footer = () => {
           }}
         >
           <div className="card-body">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="row mb-3" id="form">
                 <div className="col">
                   <input
                     type="text"
                     className="form-control"
                     placeholder="Full name *"
+                    name="name"
                     required
                   />
                 </div>
@@ -50,6 +81,7 @@ const Footer = () => {
                     type="email"
                     className="form-control"
                     placeholder="Your Email *"
+                    name="email"
                     required
                   />
                 </div>
@@ -59,6 +91,7 @@ const Footer = () => {
                   type="text"
                   className="form-control"
                   placeholder="Subject *"
+                  name="title"
                   required
                 />
               </div>
@@ -68,6 +101,7 @@ const Footer = () => {
                   rows="4"
                   placeholder="Your message *"
                   required
+                  name="message"
                 ></textarea>
               </div>
               <button
@@ -113,3 +147,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
