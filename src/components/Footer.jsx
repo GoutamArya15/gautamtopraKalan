@@ -2,9 +2,9 @@ import { useRef } from "react";
 import {
   FaEnvelope,
   FaGithub,
-  FaInstagram,
   FaPhone,
   FaLinkedin,
+  FaYoutube 
 } from "react-icons/fa";
 
 import emailjs from "emailjs-com";
@@ -41,6 +41,7 @@ const Footer = () => {
     <footer
       className="footer-section py-5 mt-5"
       style={{ backgroundColor: "#fff8ee" }}
+      id="contact"
     >
       <div className="container text-center">
         {/* Title */}
@@ -132,8 +133,8 @@ const Footer = () => {
             <a href="tel:+917015896174" className="text-dark">
               <FaPhone />
             </a>
-            <a href="#" className="text-dark">
-              <FaInstagram />
+            <a href="https://www.youtube.com/@goutamarya1452" className="text-dark">
+              <FaYoutube />
             </a>
             <a href="linkedin.com/in/goutam-topra-kalan-2b8215274" className="text-dark">
               <FaLinkedin />
