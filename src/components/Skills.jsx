@@ -186,49 +186,49 @@ const Skills = () => {
       {/* eduacation start  */}
       {/* education  */}
       <div className='container-fluid mt-5'>
-          <section id="education" className='mt-5'>
-              <div class="container text-center">
-                <h2>Education</h2>
-                <div class="row justify-content-center">
+        <section id="education" className='mt-5'>
+          <div class="container text-center">
+            <h2>Education</h2>
+            <div class="row justify-content-center">
 
-                  <div class="col-md-4 mb-4">
-                    <div class="edu-card p-4 h-100">
-                      <div class="edu-icon">
-                        🎓
-                      </div>
-                      <h5>Diploma In Computer Science</h5>
-                      <p>Seth Jai Parakash Polytechnic</p>
-                      <p>2021-2023</p>
-                    </div>
+              <div class="col-md-4 mb-4">
+                <div class="edu-card p-4 h-100">
+                  <div class="edu-icon">
+                    🎓
                   </div>
-
-                  <div class="col-md-4 mb-4">
-                    <div class="edu-card p-4 h-100">
-                      <div class="edu-icon">
-                        🏫
-                      </div>
-                      <h5>Higher Secondary (12th)</h5>
-                      <p>State Board of Haryana (Open Board)</p>
-                      <p>2024-2025</p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 mb-4">
-                    <div class="edu-card p-4 h-100">
-                      <div class="edu-icon">
-                        📘
-                      </div>
-                      <h5>Matriculation (10th)</h5>
-                      <p>State Board of Haryana</p>
-                      <p>2020 – 2021</p>
-                    </div>
-                  </div>
-
+                  <h5>Diploma In Computer Science</h5>
+                  <p>Seth Jai Parakash Polytechnic</p>
+                  <p>2021-2023</p>
                 </div>
               </div>
-            </section>
+
+              <div class="col-md-4 mb-4">
+                <div class="edu-card p-4 h-100">
+                  <div class="edu-icon">
+                    🏫
+                  </div>
+                  <h5>Higher Secondary (12th)</h5>
+                  <p>State Board of Haryana (Open Board)</p>
+                  <p>2024-2025</p>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="edu-card p-4 h-100">
+                  <div class="edu-icon">
+                    📘
+                  </div>
+                  <h5>Matriculation (10th)</h5>
+                  <p>State Board of Haryana</p>
+                  <p>2020 – 2021</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
       </div>
-            
+
 
       {/* education end  */}
 
@@ -289,6 +289,20 @@ const Skills = () => {
             </div>
           </div>
         </section>
+        <div className='d-flex justify-content-center'>
+          <a
+            className="btn btn-primary"
+            target='_blank'
+            href='https://github.com/GoutamArya15?tab=repositories'
+            style={{
+              backgroundColor: "#212529",
+              border: "none",
+            }}
+          >
+            More Projects
+          </a>
+
+        </div>
       </div>
     </>
 
