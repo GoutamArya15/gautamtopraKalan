@@ -118,7 +118,6 @@
     }
 }
 
-
 /* mobile view - 300px se 400px ke liye */
 @media (min-width: 300px) and (max-width: 400px) {
     .navbar-nav {
@@ -235,26 +234,6 @@
     }
 }
 
-
-
-
-
-/* vivo mobile responsive  */
-
-@media (max-width: 368) {
-    body {
-        background-color: red;
-    }
-}
-
-
-
-
-
-
-
-
-
 /* desktop view */
 @media (min-width: 991px) {
     #resume2 {
@@ -314,13 +293,149 @@
 
     .intro-section {
         max-width: 75%;
-        gap: 40px;
-    }
-
-    .intro-section {
-        max-width: 75%;
         margin: 50px auto;
         gap: 40px;
         margin-top: 90px;
+        height: 62vh;
     }
+
+
+
+    /* skills and expersnce section  */
+    h1#skillsexp {
+        font-family: "Georgia", serif;
+        font-size: 50px;
+        font-weight: normal;
+    }
+
+    h1#skillsexp::first-letter {
+        font-size: 61px;
+    }
+
+    .section-title {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .skills img {
+        width: 50px;
+        margin: 15px;
+        transition: transform 0.3s;
+    }
+
+    .skills img:hover {
+        transform: scale(1.2);
+    }
+
+    .experience-item {
+        border-top: 2px solid #000;
+        padding: 15px 0;
+    }
+
+    .experience-item:last-child {
+        border-bottom: 2px solid #000;
+    }
+
+    .btn-custom {
+        background-color: #e6a400;
+        border: none;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    .btn-custom:hover {
+        background-color: #cc8c00;
+    }
+
+    #skillsexperinceSection {
+        background-color: rgb(255, 248, 238);
+    }
+
+    .experience-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #second-box {
+        width: 165px;
+    }
+
+    p.experince-headiline {
+        font-size: 33px;
+        font-family: "Georgia", serif;
+        font-weight: normal;
+    }
+
+    p.experince-headiline .brackets {
+        color: #f79d00;
+        font-weight: bold;
+    }
+
+    /* our work section  */
+    .card-hover {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card-hover:hover {
+        transform: translateY(-10px) scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #pargraph_work{
+        height: 146px !important;
+    }
+
 }
+
+
+/* navbar css */
+nav.navbar.navbar-expand-lg.navbar-light.bg-white.shadow-sm {
+    position: sticky;
+    top: 0;
+    background-color: hsl(0deg 0% 97% / 96%) !important;
+    z-index: 1;
+}
+
+
+    #education {
+      background-color: #f8f9fa;
+      padding: 80px 0;
+    }
+
+    #education h2 {
+      color: #111;
+      font-family: "Georgia", serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+    }
+
+    .edu-card {
+      transition: all 0.3s ease;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .edu-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .edu-card h5 {
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .edu-card p {
+      color: #6c757d;
+      margin-bottom: 5px;
+    }
+
+    .edu-icon {
+      font-size: 40px;
+      color: #0d6efd;
+      margin-bottom: 15px;
+    }

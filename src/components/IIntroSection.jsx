@@ -10,7 +10,7 @@ const IntroSection = () => {
         {/* Left Text */}
         <div className="intro-text">
           <h1 className="intro-subtitle">HELLO. I'M</h1>
-          <h1 className="intro-name">GAUTAM ARYA</h1>
+          <h1 className="intro-name">GAUTAM SAIN</h1>
           <p className="intro-pronouns">
             <span className="brackets">&lt;</span> He/Him{" "}
             <span className="brackets">/&gt;</span>

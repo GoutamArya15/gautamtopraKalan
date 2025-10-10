@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "../assets/navbar.css";
+import resume from "../assets/gautam-resume.pdf"
 
 const Header = () => {
   return (
@@ -7,9 +8,9 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
           <div className="container-fluid mx-2">
             <a className="navbar-brand" href="#">
-              Gautam Arya
+              Gautam Sain
             </a>
-             <a className="btn resume-btn" id="resume2" target="_blank" href="">
+             <a className="btn resume-btn" id="resume2" target="_blank" href={resume}>
                 Get Resume
               </a>
             <button
@@ -53,7 +54,7 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
-              <a className="btn resume-btn" id="resume" target="_blank" href="">
+              <a className="btn resume-btn" id="resume" target="_blank" href={resume}>
                 Get Resume
               </a>
             </div>
