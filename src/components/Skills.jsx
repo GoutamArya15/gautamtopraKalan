@@ -59,14 +59,15 @@ const Skills = () => {
     <>
       {/* skills and experince  */}
       <div className='container-fluid' id='skillsexperinceSection'>
-        <div className="container py-5">
+        <div className="container py-5" id='about'>
           <div className="row">
             {/* Skills Section */}
             <div className="col-md-6">
               <h1 id="skillsexp">
                 Skills and <br /> Experience
               </h1>
-              <h4 className="mt-4 text-warning">&lt;My Skills/&gt;</h4>
+
+              <h4 className='skills_h4'><span class="brackets">&lt;</span> My Skills <span class="brackets">/&gt;</span></h4>
 
               <div className="skills d-flex flex-wrap">
                 <img
@@ -145,7 +146,7 @@ const Skills = () => {
             </div>
 
             {/* Experience Section */}
-            <div className="col-md-6">
+            <div className="col-md-6 mt-5" id='experince'>
               <p className='experince-headiline'><span className="brackets">&lt;</span> Experience <span className="brackets">/&gt;</span></p>
 
               <div className="experience-item">
@@ -176,7 +177,7 @@ const Skills = () => {
                   <small>Cal Info KurukShetra</small>
                 </div>
               </div>
-              <a className="btn btn-custom mt-4" href={resume} target='_blank'>Get Resume</a>
+              <a className="btn btn-primary mt-4" id='expernce_button' href={resume} target='_blank'>Get Resume</a>
             </div>
           </div>
         </div>
@@ -185,7 +186,7 @@ const Skills = () => {
 
       {/* eduacation start  */}
       {/* education  */}
-      <div className='container-fluid mt-5'>
+      <div className='container-fluid mt-5' id='education'>
         <section id="education" className='mt-5'>
           <div class="container text-center">
             <h2>Education</h2>
@@ -234,7 +235,7 @@ const Skills = () => {
 
 
       {/* our work section  */}
-      <div className="container-fluid">
+      <div className="container-fluid" id='projects'>
         <section className="work-section py-5">
           <div className="container">
             <h2 className="text-center mb-3">Our Work</h2>

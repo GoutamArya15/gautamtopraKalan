@@ -116,6 +116,33 @@
         padding-bottom: 5px;
         font-weight: bold;
     }
+
+    p.experince-headiline {
+        font-size: 33px;
+        font-weight: 700;
+        font-family: 'Cormorant SC';
+    }
+
+    .experience-item {
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid #00000057;
+        padding: 17px 0px;
+    }
+
+    div#experince {
+        margin-top: 80px !important;
+    }
+
+    #education h2 {
+        color: #111;
+        font-size: 36px;
+        font-family: 'Cormorant SC';
+        font-weight: bolder;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
 }
 
 /* mobile view - 300px se 400px ke liye */
@@ -231,6 +258,34 @@
         padding-top: 5px;
         padding-bottom: 5px;
         font-weight: bold;
+    }
+
+    /* skillls and experince */
+    .skills.d-flex.flex-wrap {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .skills.d-flex.flex-wrap>img {
+        height: 72px;
+    }
+
+    h1#skillsexp {
+        font-size: 53px;
+        font-family: 'Cormorant SC';
+    }
+
+    div#skillsexperinceSection {
+        background-color: #fef7e9;
+        margin-top: 53px;
+    }
+
+    #skillsexperinceSection h4 {
+        font-size: 30px;
+        font-family: 'Cormorant SC';
+        padding: 20px 0px;
+        font-weight: 600;
     }
 }
 
@@ -381,7 +436,7 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
 
-    #pargraph_work{
+    #pargraph_work {
         height: 146px !important;
     }
 
@@ -397,45 +452,65 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white.shadow-sm {
 }
 
 
-    #education {
-      background-color: #f8f9fa;
-      padding: 80px 0;
-    }
+#education {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
 
-    #education h2 {
-      color: #111;
-      font-family: "Georgia", serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 40px;
-    }
+#education h2 {
+    color: #111;
+    font-family: "Georgia", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
 
-    .edu-card {
-      transition: all 0.3s ease;
-      border: none;
-      border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-    }
+.edu-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
 
-    .edu-card:hover {
-      transform: translateY(-7px);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-    }
+.edu-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
 
-    .edu-card h5 {
-      font-weight: 600;
-      color: #212529;
-    }
+.edu-card h5 {
+    font-weight: 600;
+    color: #212529;
+}
 
-    .edu-card p {
-      color: #6c757d;
-      margin-bottom: 5px;
-    }
+.edu-card p {
+    color: #6c757d;
+    margin-bottom: 5px;
+}
 
-    .edu-icon {
-      font-size: 40px;
-      color: #0d6efd;
-      margin-bottom: 15px;
-    }
+.edu-icon {
+    font-size: 40px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.skills_h4 .brackets {
+    color: #f79d00;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.experince-headiline .brackets {
+    color: #f79d00;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#expernce_button{
+    background-color: #f4a825 !important;
+    border: none;
+    color: #212529;
+    font-size: 13px;
+}
