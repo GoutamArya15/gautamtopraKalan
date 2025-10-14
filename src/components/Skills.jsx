@@ -235,7 +235,7 @@ const Skills = () => {
 
 
       {/* our work section  */}
-      <div className="container-fluid" id='projects'>
+      <div className="container-fluid mt-3" id='projects'>
         <section className="work-section py-5">
           <div className="container">
             <h2 className="text-center mb-3">Our Work</h2>
