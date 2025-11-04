@@ -20,16 +20,7 @@ const Header = () => {
             Gautam Sain
           </a>
 
-          {/* Resume Button (for desktop) */}
-          <a
-            className="btn resume-btn d-none d-lg-block"
-            id="resume2"
-            target="_blank"
-            rel="noreferrer"
-            href={resume}
-          >
-            Get Resume
-          </a>
+
 
           {/* Navbar Toggle Button (for mobile) */}
           <button
@@ -43,6 +34,8 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
+
 
           {/* Navbar Links */}
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -91,6 +84,18 @@ const Header = () => {
               Get Resume
             </a>
           </div>
+          {/* Resume Button (for desktop) */}
+          <a
+            className="btn resume-btn d-none d-lg-block"
+            id="resume2"
+            target="_blank"
+            rel="noreferrer"
+            href={resume}
+            style={{ marginLeft: "20px" }}
+          >
+           Get Resume
+          </a>
+
         </div>
       </nav>
     </>
