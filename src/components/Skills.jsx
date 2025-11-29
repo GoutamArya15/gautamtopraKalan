@@ -1,15 +1,14 @@
 import React from 'react'
-import tradehive from "../assets/our-work/trde-hive.png";
-import localio from "../assets/our-work/loclio.png";
+import tradehive from "../assets/our-work/trde-hive.webp";
+import localio from "../assets/our-work/loclio.webp";
 import resume from "../assets/gautam-resume.pdf"
 import { FaExternalLinkAlt } from "react-icons/fa";
-import dayga from "../assets/our-work/dayga.png";
-import newswise from "../assets/our-work/newswise.png"
-import nora from "../assets/our-work/nora.png"
+import dayga from "../assets/our-work/dayga.webp";
+import newswise from "../assets/our-work/newswise.webp"
+import nora from "../assets/our-work/nora.webp"
 import { useState } from 'react';
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("php");
-
   const projects = [
     {
       id: 1,
@@ -53,8 +52,6 @@ const Skills = () => {
     },
   ];
   const filteredProjects = projects.filter((p) => p.tech === activeTab);
-
-
   return (
     <>
       {/* skills and experince  */}
@@ -151,30 +148,30 @@ const Skills = () => {
 
               <div className="experience-item">
                 <p className="mb-1">
-                  <strong>Oct 2025 - Present</strong>
+                  <strong>Nov 2024 - Present</strong>
                 </p>
                 <div id='second-box'>
                   <h5 className="mb-0">Web Developer</h5>
-                  <small>Mohali</small>
+                  <small>Jeronone Technology (Mohali,Punjab)</small>
                 </div>
               </div>
               <div className="experience-item">
                 <p className="mb-1">
-                  <strong>Jan 2025 - Oct 2025</strong>
+                  <strong>May 2024 - Oct 2024</strong>
                 </p>
                 <div id='second-box'>
                   <h5 className="mb-0">Web Developer</h5>
-                  <small>Jeronone Technology</small>
+                  <small>Sivah Tech (Mohali,Punjab)</small>
                 </div>
               </div>
 
               <div className="experience-item">
                 <p className="mb-1">
-                  <strong>July 2023 - Jan 2025</strong>
+                  <strong>July 2023 - Sep 2023</strong>
                 </p>
                 <div id='second-box'>
                   <h5 className="mb-0">Web Developer</h5>
-                  <small>Cal Info KurukShetra</small>
+                  <small>Cal Info (Kurukshetra,Haryana)</small>
                 </div>
               </div>
               <a className="btn btn-primary mt-4" id='expernce_button' href={resume} target='_blank'>Get Resume</a>
