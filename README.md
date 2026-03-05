@@ -42,15 +42,14 @@ Here’s the stuff I break... I mean **build** things with:
 ---
 
 ## 🚀 Live Demo
-👉 [Check my portfolio here](https://your-portfolio-link.com)  
+👉 [Check my portfolio here](https://gautamtopra-kalan.vercel.app/)  
 (If it's down... blame the WiFi gods 🙏)
 
 ---
 
 ## 🤝 Let's Connect
-- 🐦 Twitter: [@yourhandle](https://twitter.com)  
-- 💼 LinkedIn: [yourprofile](https://linkedin.com)  
-- 📧 Email: `youremail@example.com`  
+- 💼 LinkedIn: https://linkedin.com/in/goutam-topra-kalan-2b8215274  
+- 📧 Email: gautamcoe015@gmail.com  
 
 ---
 
